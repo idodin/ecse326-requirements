@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 8:12:10 PM EDT" modified="November 9, 2018 11:27:24 PM EST" specVersion="16" urnVersion="1.27" nextGlobalID="1857">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 8:12:10 PM EDT" modified="November 10, 2018 12:05:50 AM EST" specVersion="18" urnVersion="1.27" nextGlobalID="1909">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8">
@@ -486,6 +486,9 @@
           <precondition label="" expression="true"/>
         </bindings>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1859" id="1859" x="90" y="28" width="1516" height="540" contDef="1858">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="299" target="304" inBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@in.0"/>
       <connections xsi:type="ucm.map:NodeConnection" source="304" target="1547" outBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@out.0"/>
       <connections xsi:type="ucm.map:NodeConnection" source="304" target="424" outBindings="//@urndef/@specDiagrams.1/@nodes.2/@bindings.0/@out.1"/>
@@ -568,6 +571,9 @@
         <metadata name="_hits" value="0"/>
         <label deltaX="42" deltaY="-55"/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1877" id="1877" x="363" y="35" width="576" height="364" contDef="1876">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="1297" target="1298"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1298" target="1309"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1306" target="1331"/>
@@ -631,6 +637,9 @@
           <precondition label="" expression="true"/>
         </bindings>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1867" id="1867" x="193" y="70" width="678" height="291" contDef="1866">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="535" target="591"/>
       <connections xsi:type="ucm.map:NodeConnection" source="552" target="671"/>
       <connections xsi:type="ucm.map:NodeConnection" source="591" target="552">
@@ -671,6 +680,9 @@
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1658" id="1658" x="517" y="396" succ="//@urndef/@specDiagrams.4/@connections.7" pred="//@urndef/@specDiagrams.4/@connections.4" respDef="1657">
         <label/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1871" id="1871" x="327" y="56" width="385" height="401" contDef="1866">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="1629" target="1638"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1635" target="1654"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1638" target="1635">
@@ -723,6 +735,9 @@
       <nodes xsi:type="ucm.map:OrJoin" name="OrJoin1089" id="1089" x="881" y="255" succ="//@urndef/@specDiagrams.5/@connections.10" pred="//@urndef/@specDiagrams.5/@connections.6 //@urndef/@specDiagrams.5/@connections.9">
         <metadata name="_hits" value="0"/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1881" id="1881" x="291" y="93" width="645" height="295" contDef="1880">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="954" target="1009"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1006" target="1045"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1009" target="1006">
@@ -795,6 +810,9 @@
       <nodes xsi:type="ucm.map:OrFork" name="OrFork504" id="504" x="224" y="209" succ="//@urndef/@specDiagrams.6/@connections.16 //@urndef/@specDiagrams.6/@connections.14" pred="//@urndef/@specDiagrams.6/@connections.0">
         <metadata name="_hits" value="0"/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1889" id="1889" x="33" y="19" width="882" height="487" contDef="1858">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="307" target="504"/>
       <connections xsi:type="ucm.map:NodeConnection" source="318" target="340"/>
       <connections xsi:type="ucm.map:NodeConnection" source="321" target="318">
@@ -877,6 +895,9 @@
       <nodes xsi:type="ucm.map:Stub" name="Purchase Ticket" id="1733" x="413" y="351" succ="//@urndef/@specDiagrams.7/@connections.16" pred="//@urndef/@specDiagrams.7/@connections.4">
         <label/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1893" id="1893" x="49" y="-57" width="1103" height="583" contDef="1858">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="1677" target="1674"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1670" target="1728"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1668" target="1673">
@@ -938,6 +959,12 @@
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1854" id="1854" x="866" y="427" succ="//@urndef/@specDiagrams.8/@connections.14" pred="//@urndef/@specDiagrams.8/@connections.10" respDef="1853">
         <label/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1897" id="1897" x="249" y="19" width="817" height="491" contDef="1866" children="1899">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1899" id="1899" x="385" y="112" width="100" height="100" contDef="1898" parent="1897">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="1736" target="1745"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1745" target="1767">
         <condition deltaX="55" deltaY="131" label="touchKiosk" expression="ticketPurchaseMethod=Kiosk" description=""/>
@@ -1021,6 +1048,9 @@
         <metadata name="_hits" value="0"/>
         <label/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1903" id="1903" x="330" y="19" width="996" height="510" contDef="1902">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="1115" target="1121"/>
       <connections xsi:type="ucm.map:NodeConnection" source="1121" target="1257">
         <condition deltaX="45" deltaY="34" label="convenience" expression="StoreType=Convenience" description=""/>
@@ -1092,6 +1122,9 @@
         <metadata name="_hits" value="0"/>
         <label deltaX="-16" deltaY="-57"/>
       </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1907" id="1907" x="237" y="43" width="686" height="434" contDef="1906">
+        <label/>
+      </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="793" target="847"/>
       <connections xsi:type="ucm.map:NodeConnection" source="792" target="818"/>
       <connections xsi:type="ucm.map:NodeConnection" source="808" target="792">
@@ -1111,6 +1144,17 @@
       <connections xsi:type="ucm.map:NodeConnection" source="873" target="794"/>
       <connections xsi:type="ucm.map:NodeConnection" source="875" target="873"/>
     </specDiagrams>
+    <components name="Businessman" id="1858" contRefs="1859 1889 1893" kind="Actor"/>
+    <components name="Train Station" id="1866" contRefs="1867 1871 1897" kind="Other"/>
+    <components name="Component1870" id="1870" kind="Agent"/>
+    <components name="Component1876" id="1876" contRefs="1877" kind="Actor"/>
+    <components name="Bank" id="1880" contRefs="1881" kind="Actor"/>
+    <components name="Component1888" id="1888" kind="Actor"/>
+    <components name="Component1892" id="1892" kind="Actor"/>
+    <components name="Component1896" id="1896" kind="Agent"/>
+    <components name="Component1898" id="1898" contRefs="1899" kind="Agent"/>
+    <components name="Shopping Services" id="1902" contRefs="1903" kind="Actor"/>
+    <components name="Bathroom" id="1906" contRefs="1907" kind="Agent"/>
   </urndef>
   <metadata name="_Use0to100EvaluationRange" value="false"/>
 </urn:URNspec>
