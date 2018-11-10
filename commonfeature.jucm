@@ -1,80 +1,286 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 7:47:16 PM EDT" modified="November 9, 2018 9:51:50 PM EST" specVersion="15" urnVersion="1.27" nextGlobalID="412">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 7:47:16 PM EDT" modified="November 9, 2018 10:28:22 PM EST" specVersion="17" urnVersion="1.27" nextGlobalID="413">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup5" id="5">
       <scenarios name="ScenarioDef6" id="6"/>
     </scenarioGroups>
   </ucmspec>
   <grlspec>
-    <intElements xsi:type="fm:Feature" name="Customer" id="21" linksDest="48 52 53 55 56 51 49 164 379 411" type="Task" refs="22"/>
-    <intElements xsi:type="fm:Feature" name="Go to Work in Station" id="27" linksSrc="48" type="Task" refs="28"/>
-    <intElements xsi:type="fm:Feature" name="Banking Services Used" id="29" linksDest="399 405" linksSrc="53" type="Task" decompositionType="Or" refs="30"/>
-    <intElements xsi:type="fm:Feature" name="Transportation Methods To Station" id="31" linksDest="186 187" linksSrc="55" type="Task" decompositionType="Xor" refs="32"/>
-    <intElements xsi:type="fm:Feature" name="Payment Type Used" id="35" linksDest="66 67 68" linksSrc="49" type="Task" decompositionType="Or" refs="36"/>
-    <intElements xsi:type="fm:Feature" name="Transportation Methods From Station" id="37" linksDest="323 324" linksSrc="56" type="Task" decompositionType="Xor" refs="38"/>
-    <intElements xsi:type="fm:Feature" name="Shopping Destination" id="41" linksDest="111 112 113 157" linksSrc="51" type="Task" decompositionType="Or" refs="42"/>
-    <intElements xsi:type="fm:Feature" name="Station Services Used" id="43" linksDest="114 115 116 223 243 252 258 272 273 348 354 360" linksSrc="52" type="Task" decompositionType="Or" refs="44"/>
-    <intElements xsi:type="fm:Feature" name="Credit" id="58" linksSrc="66" type="Task" refs="59"/>
-    <intElements xsi:type="fm:Feature" name="Debit" id="60" linksSrc="68" type="Task" refs="61"/>
-    <intElements xsi:type="fm:Feature" name="Cash" id="62" linksSrc="67" type="Task" refs="63"/>
-    <intElements xsi:type="fm:Feature" name="Bus To Station" id="70" linksSrc="191" type="Task" refs="71"/>
-    <intElements xsi:type="fm:Feature" name="Personal Vehicle To Station" id="72" linksSrc="192" type="Task" refs="73"/>
-    <intElements xsi:type="fm:Feature" name="Taxi To Station" id="74" linksSrc="190" type="Task" refs="75"/>
-    <intElements xsi:type="fm:Feature" name="Walking To Station" id="78" linksSrc="193" type="Task" refs="79"/>
-    <intElements xsi:type="fm:Feature" name="Food" id="93" linksDest="229 236" linksSrc="111" type="Task" decompositionType="Or" refs="94"/>
-    <intElements xsi:type="fm:Feature" name="Gift / Flower Shops" id="95" linksSrc="113" type="Task" refs="96"/>
-    <intElements xsi:type="fm:Feature" name="Convenience Stores" id="99" linksSrc="112" type="Task" refs="100"/>
-    <intElements xsi:type="fm:Feature" name="Information Desk" id="103" linksSrc="115" type="Task" refs="104"/>
-    <intElements xsi:type="fm:Feature" name="Restrooms" id="105" linksDest="338 339" linksSrc="114" type="Task" decompositionType="Xor" refs="106"/>
-    <intElements xsi:type="fm:Feature" name="Benches" id="107" linksSrc="116" type="Task" refs="108"/>
-    <intElements xsi:type="fm:Feature" name="Coffee" id="153" linksSrc="157" type="Task" refs="154"/>
-    <intElements xsi:type="fm:Feature" name="Ticket Purchasing Method" id="159" linksDest="176 177 178" linksSrc="164" type="Task" decompositionType="Or" refs="160"/>
-    <intElements xsi:type="fm:Feature" name="Touch Kiosk" id="166" linksSrc="176" type="Task" refs="167"/>
-    <intElements xsi:type="fm:Feature" name="Ticket Counter" id="170" linksDest="214 215" linksSrc="177" type="Task" decompositionType="Or" refs="171"/>
-    <intElements xsi:type="fm:Feature" name="Mobile Phone" id="172" linksSrc="178" type="Task" refs="173"/>
-    <intElements xsi:type="fm:Feature" name="External Transporation Methods To Station" id="180" linksDest="190 191 192 193" linksSrc="186" type="Task" decompositionType="Xor" refs="181"/>
-    <intElements xsi:type="fm:Feature" name="Train To Station" id="182" linksDest="201 202" linksSrc="187" type="Task" decompositionType="Xor" refs="183"/>
-    <intElements xsi:type="fm:Feature" name="Commuter Train to Station" id="195" linksSrc="201" type="Task" refs="196"/>
-    <intElements xsi:type="fm:Feature" name="ViaRail To Station" id="197" linksSrc="202" type="Task" refs="198"/>
-    <intElements xsi:type="fm:Feature" name="Commuter Counter" id="204" linksSrc="214" type="Task" refs="205"/>
-    <intElements xsi:type="fm:Feature" name="ViaRail Counter" id="210" linksSrc="215" type="Task" refs="211"/>
-    <intElements xsi:type="fm:Feature" name="Car Rental" id="217" linksSrc="223" type="Task" refs="218"/>
-    <intElements xsi:type="fm:Feature" name="Eat In" id="225" linksDest="385 391" linksSrc="229" type="Task" refs="226"/>
-    <intElements xsi:type="fm:Feature" name="To Go" id="231" linksSrc="236" type="Task" refs="232"/>
-    <intElements xsi:type="fm:Feature" name="Currency Exchange" id="239" linksSrc="243" type="Task" refs="240"/>
-    <intElements xsi:type="fm:Feature" name="Baggage Services" id="245" linksSrc="252" type="Task" refs="246"/>
-    <intElements xsi:type="fm:Feature" name="Photo Machine" id="254" linksSrc="258" type="Task" refs="255"/>
-    <intElements xsi:type="fm:Feature" name="Audio Announcements" id="264" linksSrc="273" type="Task" refs="265"/>
-    <intElements xsi:type="fm:Feature" name="Video Announcements" id="268" linksSrc="272" type="Task" refs="269"/>
-    <intElements xsi:type="fm:Feature" name="External Transportation Methods From" id="285" linksDest="319 320 321 322" linksSrc="323" type="Task" decompositionType="Xor" refs="286"/>
-    <intElements xsi:type="fm:Feature" name="Taxi From Station" id="289" linksSrc="319" type="Task" refs="290"/>
-    <intElements xsi:type="fm:Feature" name="Bus From Station" id="293" linksSrc="320" type="Task" refs="294"/>
-    <intElements xsi:type="fm:Feature" name="Personal Vehicl From Station" id="297" linksSrc="321" type="Task" refs="298"/>
-    <intElements xsi:type="fm:Feature" name="Walking From Station" id="301" linksSrc="322" type="Task" refs="302"/>
-    <intElements xsi:type="fm:Feature" name="Train From Station" id="305" linksDest="317 318" linksSrc="324" type="Task" decompositionType="Xor" refs="306"/>
-    <intElements xsi:type="fm:Feature" name="Commuter Train from Station" id="309" linksSrc="317" type="Task" refs="310"/>
-    <intElements xsi:type="fm:Feature" name="ViaRAil From Station" id="313" linksSrc="318" type="Task" refs="314"/>
-    <intElements xsi:type="fm:Feature" name="Male Restroom" id="326" linksSrc="342" type="Task" refs="327"/>
-    <intElements xsi:type="fm:Feature" name="Female Restroom" id="328" linksSrc="341" type="Task" refs="329"/>
-    <intElements xsi:type="fm:Feature" name="Standard Restroms" id="332" linksDest="341 342" linksSrc="339" type="Task" decompositionType="Or" refs="333"/>
-    <intElements xsi:type="fm:Feature" name="Accessible Restroom" id="334" linksSrc="338" type="Task" refs="335"/>
-    <intElements xsi:type="fm:Feature" name="Wifi" id="344" linksSrc="348" type="Task" refs="345"/>
-    <intElements xsi:type="fm:Feature" name="Scanner/Printer" id="350" linksSrc="354" type="Task" refs="351"/>
-    <intElements xsi:type="fm:Feature" name="Phone Booth" id="356" linksSrc="360" type="Task" refs="357"/>
-    <intElements xsi:type="fm:Feature" name="Mobility Method Used" id="362" linksDest="376 377 378" linksSrc="379" type="Task" decompositionType="Or" refs="363"/>
-    <intElements xsi:type="fm:Feature" name="Elevator" id="366" linksSrc="377" type="Task" refs="367"/>
-    <intElements xsi:type="fm:Feature" name="Escalator" id="368" linksSrc="376" type="Task" refs="369"/>
-    <intElements xsi:type="fm:Feature" name="Stairs" id="372" linksSrc="378" type="Task" refs="373"/>
-    <intElements xsi:type="fm:Feature" name="Accessibility Seating" id="381" linksSrc="385" type="Task" refs="382"/>
-    <intElements xsi:type="fm:Feature" name="Child Play Area" id="387" linksSrc="391" type="Task" refs="388"/>
-    <intElements xsi:type="fm:Feature" name="ATM" id="394" linksSrc="399" type="Task" refs="395"/>
-    <intElements xsi:type="fm:Feature" name="Bank Teller" id="401" linksSrc="405" type="Task" refs="402"/>
-    <intElements xsi:type="fm:Feature" name="Push Stroller" id="407" linksSrc="411" type="Task" refs="408"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional48" id="48" refs="//@urndef/@specDiagrams.0/@connections.0" dest="21" src="27"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional52" id="52" refs="//@urndef/@specDiagrams.0/@connections.1" dest="21" src="43"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional53" id="53" refs="//@urndef/@specDiagrams.0/@connections.2" dest="21" src="29"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory55" id="55" refs="//@urndef/@specDiagrams.0/@connections.3" dest="21" src="31"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory56" id="56" refs="//@urndef/@specDiagrams.0/@connections.4" dest="21" src="37"/>
+    <intElements xsi:type="fm:Feature" name="Customer" id="21" linksDest="48 52 53 55 56 51 49 164 379 411" type="Task" refs="22">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Go to Work in Station" id="27" linksSrc="48" type="Task" refs="28">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Banking Services Used" id="29" linksDest="399 405" linksSrc="53" type="Task" decompositionType="Or" refs="30">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Transportation Methods To Station" id="31" linksDest="186 187" linksSrc="55" type="Task" decompositionType="Xor" refs="32">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20181109-222820738"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Payment Type Used" id="35" linksDest="66 67 68" linksSrc="49" type="Task" decompositionType="Or" refs="36">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Transportation Methods From Station" id="37" linksDest="323 324" linksSrc="56" type="Task" decompositionType="Xor" refs="38">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20181109-222820738"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Shopping Destination" id="41" linksDest="111 112 113 157" linksSrc="51" type="Task" decompositionType="Or" refs="42">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Station Services Used" id="43" linksDest="114 115 116 223 243 252 258 272 273 348 354 360" linksSrc="52" type="Task" decompositionType="Or" refs="44">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Credit" id="58" linksSrc="66" type="Task" refs="59">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Debit" id="60" linksSrc="68" type="Task" refs="61">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Cash" id="62" linksSrc="67" type="Task" refs="63">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Bus To Station" id="70" linksSrc="191" type="Task" refs="71">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Personal Vehicle To Station" id="72" linksSrc="192" type="Task" refs="73">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Taxi To Station" id="74" linksSrc="190" type="Task" refs="75">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Walking To Station" id="78" linksSrc="193" type="Task" refs="79">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Food" id="93" linksDest="229 236" linksSrc="111" type="Task" decompositionType="Or" refs="94">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Gift / Flower Shops" id="95" linksSrc="113" type="Task" refs="96">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Convenience Stores" id="99" linksSrc="112" type="Task" refs="100">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Information Desk" id="103" linksSrc="115" type="Task" refs="104">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Restrooms" id="105" linksDest="338 339" linksSrc="114" type="Task" decompositionType="Xor" refs="106">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Benches" id="107" linksSrc="116" type="Task" refs="108">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Coffee" id="153" linksSrc="157" type="Task" refs="154">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Ticket Purchasing Method" id="159" linksDest="176 177 178" linksSrc="164" type="Task" decompositionType="Or" refs="160">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Touch Kiosk" id="166" linksSrc="176" type="Task" refs="167">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Ticket Counter" id="170" linksDest="214 215" linksSrc="177" type="Task" decompositionType="Or" refs="171">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Mobile Phone" id="172" linksSrc="178" type="Task" refs="173">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="External Transporation Methods To Station" id="180" linksDest="190 191 192 193" linksSrc="186" type="Task" decompositionType="Xor" refs="181">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Train To Station" id="182" linksDest="201 202" linksSrc="187" type="Task" decompositionType="Xor" refs="183">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Commuter Train to Station" id="195" linksSrc="201" type="Task" refs="196">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="ViaRail To Station" id="197" linksSrc="202" type="Task" refs="198">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Commuter Counter" id="204" linksSrc="214" type="Task" refs="205">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="ViaRail Counter" id="210" linksSrc="215" type="Task" refs="211">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Car Rental" id="217" linksSrc="223" type="Task" refs="218">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Eat In" id="225" linksDest="385 391" linksSrc="229" type="Task" refs="226">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="To Go" id="231" linksSrc="236" type="Task" refs="232">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Currency Exchange" id="239" linksSrc="243" type="Task" refs="240">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Baggage Services" id="245" linksSrc="252" type="Task" refs="246">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Photo Machine" id="254" linksSrc="258" type="Task" refs="255">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Audio Announcements" id="264" linksSrc="273" type="Task" refs="265">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Video Announcements" id="268" linksSrc="272" type="Task" refs="269">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="External Transportation Methods From" id="285" linksDest="319 320 321 322" linksSrc="323" type="Task" decompositionType="Xor" refs="286">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Taxi From Station" id="289" linksSrc="319" type="Task" refs="290">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Bus From Station" id="293" linksSrc="320" type="Task" refs="294">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Personal Vehicl From Station" id="297" linksSrc="321" type="Task" refs="298">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Walking From Station" id="301" linksSrc="322" type="Task" refs="302">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Train From Station" id="305" linksDest="317 318" linksSrc="324" type="Task" decompositionType="Xor" refs="306">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Commuter Train from Station" id="309" linksSrc="317" type="Task" refs="310">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="ViaRAil From Station" id="313" linksSrc="318" type="Task" refs="314">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Male Restroom" id="326" linksSrc="342" type="Task" refs="327">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Female Restroom" id="328" linksSrc="341" type="Task" refs="329">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Standard Restroms" id="332" linksDest="341 342" linksSrc="339" type="Task" decompositionType="Or" refs="333">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Accessible Restroom" id="334" linksSrc="338" type="Task" refs="335">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Wifi" id="344" linksSrc="348" type="Task" refs="345">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Scanner/Printer" id="350" linksSrc="354" type="Task" refs="351">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Phone Booth" id="356" linksSrc="360" type="Task" refs="357">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Mobility Method Used" id="362" linksDest="376 377 378" linksSrc="379" type="Task" decompositionType="Or" refs="363">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20181109-222820738"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Elevator" id="366" linksSrc="377" type="Task" refs="367">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Escalator" id="368" linksSrc="376" type="Task" refs="369">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Stairs" id="372" linksSrc="378" type="Task" refs="373">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Accessibility Seating" id="381" linksSrc="385" type="Task" refs="382">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Child Play Area" id="387" linksSrc="391" type="Task" refs="388">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="ATM" id="394" linksSrc="399" type="Task" refs="395">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Bank Teller" id="401" linksSrc="405" type="Task" refs="402">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Push Stroller" id="407" linksSrc="411" type="Task" refs="408">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <links xsi:type="fm:OptionalFMLink" name="Optional48" id="48" refs="//@urndef/@specDiagrams.0/@connections.0" dest="21" src="27" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional52" id="52" refs="//@urndef/@specDiagrams.0/@connections.1" dest="21" src="43" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional53" id="53" refs="//@urndef/@specDiagrams.0/@connections.2" dest="21" src="29" quantitativeContribution="0"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory55" id="55" refs="//@urndef/@specDiagrams.0/@connections.3" dest="21" src="31" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory56" id="56" refs="//@urndef/@specDiagrams.0/@connections.4" dest="21" src="37" quantitativeContribution="50"/>
     <links xsi:type="grl:Decomposition" name="Decomposition66" id="66" refs="//@urndef/@specDiagrams.0/@connections.5" dest="35" src="58"/>
     <links xsi:type="grl:Decomposition" name="Decomposition67" id="67" refs="//@urndef/@specDiagrams.0/@connections.6" dest="35" src="62"/>
     <links xsi:type="grl:Decomposition" name="Decomposition68" id="68" refs="//@urndef/@specDiagrams.0/@connections.7" dest="35" src="60"/>
@@ -84,10 +290,10 @@
     <links xsi:type="grl:Decomposition" name="Decomposition114" id="114" refs="//@urndef/@specDiagrams.0/@connections.11" dest="43" src="105"/>
     <links xsi:type="grl:Decomposition" name="Decomposition115" id="115" refs="//@urndef/@specDiagrams.0/@connections.12" dest="43" src="103"/>
     <links xsi:type="grl:Decomposition" name="Decomposition116" id="116" refs="//@urndef/@specDiagrams.0/@connections.13" dest="43" src="107"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional51" id="51" refs="//@urndef/@specDiagrams.0/@connections.14" dest="21" src="41"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional49" id="49" refs="//@urndef/@specDiagrams.0/@connections.15" dest="21" src="35"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional51" id="51" refs="//@urndef/@specDiagrams.0/@connections.14" dest="21" src="41" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional49" id="49" refs="//@urndef/@specDiagrams.0/@connections.15" dest="21" src="35" quantitativeContribution="0"/>
     <links xsi:type="grl:Decomposition" name="Decomposition157" id="157" refs="//@urndef/@specDiagrams.0/@connections.16" dest="41" src="153"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional164" id="164" refs="//@urndef/@specDiagrams.0/@connections.17" dest="21" src="159"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional164" id="164" refs="//@urndef/@specDiagrams.0/@connections.17" dest="21" src="159" quantitativeContribution="0"/>
     <links xsi:type="grl:Decomposition" name="Decomposition176" id="176" refs="//@urndef/@specDiagrams.0/@connections.18" dest="159" src="166"/>
     <links xsi:type="grl:Decomposition" name="Decomposition177" id="177" refs="//@urndef/@specDiagrams.0/@connections.19" dest="159" src="170"/>
     <links xsi:type="grl:Decomposition" name="Decomposition178" id="178" refs="//@urndef/@specDiagrams.0/@connections.20" dest="159" src="172"/>
@@ -128,13 +334,68 @@
     <links xsi:type="grl:Decomposition" name="Decomposition377" id="377" refs="//@urndef/@specDiagrams.0/@connections.55" dest="362" src="366"/>
     <links xsi:type="grl:Decomposition" name="Decomposition378" id="378" refs="//@urndef/@specDiagrams.0/@connections.56" dest="362" src="372"/>
     <links xsi:type="grl:Decomposition" name="Decomposition379" id="379" refs="//@urndef/@specDiagrams.0/@connections.57" dest="21" src="362"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional385" id="385" refs="//@urndef/@specDiagrams.0/@connections.58" dest="225" src="381"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional391" id="391" refs="//@urndef/@specDiagrams.0/@connections.59" dest="225" src="387"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional385" id="385" refs="//@urndef/@specDiagrams.0/@connections.58" dest="225" src="381" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional391" id="391" refs="//@urndef/@specDiagrams.0/@connections.59" dest="225" src="387" quantitativeContribution="100"/>
     <links xsi:type="grl:Decomposition" name="Decomposition399" id="399" refs="//@urndef/@specDiagrams.0/@connections.60" dest="29" src="394"/>
     <links xsi:type="grl:Decomposition" name="Decomposition405" id="405" refs="//@urndef/@specDiagrams.0/@connections.61" dest="29" src="401"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional411" id="411" refs="//@urndef/@specDiagrams.0/@connections.62" dest="21" src="407"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional411" id="411" refs="//@urndef/@specDiagrams.0/@connections.62" dest="21" src="407" quantitativeContribution="0"/>
     <groups name="StrategiesGroup3" id="3" strategies="4"/>
-    <strategies name="EvaluationStrategy4" id="4" author="14389" group="3"/>
+    <strategies name="EvaluationStrategy4" id="4" author="14389" group="3">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="387">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="99">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="381">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="60">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="58">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="62">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="368">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="366">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="245">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="107">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="344">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="328">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="297">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="180">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="72">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="172">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="170">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="204">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
     <impactModel/>
     <indicatorGroup name="Time" id="7" isRedesignCategory="true"/>
     <indicatorGroup name="Cost" id="8" isRedesignCategory="true"/>
@@ -143,7 +404,7 @@
     <featureModel/>
   </grlspec>
   <urndef>
-    <specDiagrams xsi:type="fm:FeatureDiagram" name="FeatureDiagram2" id="2">
+    <specDiagrams xsi:type="fm:FeatureDiagram" name="momFeatureConfiguration" id="2">
       <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef22" id="22" x="837" y="-307" pred="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.1 //@urndef/@specDiagrams.0/@connections.2 //@urndef/@specDiagrams.0/@connections.3 //@urndef/@specDiagrams.0/@connections.4 //@urndef/@specDiagrams.0/@connections.14 //@urndef/@specDiagrams.0/@connections.15 //@urndef/@specDiagrams.0/@connections.17 //@urndef/@specDiagrams.0/@connections.57 //@urndef/@specDiagrams.0/@connections.62" def="21">
         <metadata name="_height" value="60"/>
         <metadata name="_width" value="176"/>
