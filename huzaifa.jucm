@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 8, 2018 at 8:08:59 PM EST" modified="November 9, 2018 at 11:12:24 PM EST" specVersion="49" urnVersion="1.27" nextGlobalID="4114">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 8, 2018 at 8:08:59 PM EST" modified="November 9, 2018 at 11:31:14 PM EST" specVersion="50" urnVersion="1.27" nextGlobalID="4114">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="Student Late" id="8">
@@ -342,7 +342,7 @@
     <responsibilities name="Board Train" id="1405" respRefs="1406 1409"/>
     <responsibilities name="Board Personal Vehicle" id="1416" respRefs="1413"/>
     <responsibilities name="Begin Walking" id="1421" respRefs="1418"/>
-    <responsibilities name="Buy Coffee" id="1432" respRefs="1433 1436 1440 2166 2170"/>
+    <responsibilities name="Use Escalator" id="1432" respRefs="1433 1436 1440 2166 2170"/>
     <responsibilities name="Buy Items" id="2177" respRefs="2174 2179 3594"/>
     <responsibilities name="Conduct Deposit" id="2494" respRefs="2504"/>
     <responsibilities name="Conduct Withdrawal" id="2496" respRefs="2497 2501"/>
