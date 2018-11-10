@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<<<<<<< HEAD
 <urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 7:47:16 PM EDT" modified="November 9, 2018 10:28:22 PM EST" specVersion="17" urnVersion="1.27" nextGlobalID="413">
+=======
+
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 7:47:16 PM EDT" modified="November 9, 2018 9:51:50 PM EST" specVersion="15" urnVersion="1.27" nextGlobalID="412">
+>>>>>>> 47a015843101f2bac3858873cdfa9d725421fbf6
   <ucmspec>
     <scenarioGroups name="ScenarioGroup5" id="5">
       <scenarios name="ScenarioDef6" id="6"/>
