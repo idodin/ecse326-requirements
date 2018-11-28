@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 8:16:48 PM EDT" modified="November 9, 2018 11:43:23 PM EST" specVersion="21" urnVersion="1.27" nextGlobalID="2711">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="14389" created="November 3, 2018 8:16:48 PM EDT" modified="November 27, 2018 10:57:34 PM EST" specVersion="24" urnVersion="1.27" nextGlobalID="2746">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8">
@@ -45,35 +45,93 @@
     <variables name="TakeVehicle2" id="2699"/>
   </ucmspec>
   <grlspec>
-    <intElements name="Offer customers a variety of flowers in florist section" id="130" linksDest="151 157" type="Goal" decompositionType="Or" refs="131"/>
+    <intElements name="Offer customers a variety of flowers in florist section" id="130" linksDest="151 157" type="Goal" decompositionType="Or" refs="131">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
     <intElements name="Allow Customizability" id="134" linksDest="162 221" linksSrc="204" type="Goal" importance="Medium" importanceQuantitative="50" refs="135">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="28"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
     <intElements name="Display Premade flowers on floor entrance for quick purchases" id="140" linksSrc="151 202" type="Task" importance="High" importanceQuantitative="75" refs="141">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
     <intElements name="Big Poster stating the ability for customers to make custom flower bouquets" id="153" linksSrc="157 162" type="Task" importance="Low" importanceQuantitative="25" refs="154">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements name="Offer a variety of souvenirs on display" id="164" linksDest="182 183 184 190" linksSrc="219 341" type="Goal" decompositionType="Or" refs="165">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Coffee Mugs" id="168" linksSrc="184" type="Task" importance="Low" importanceQuantitative="25" refs="169"/>
-    <intElements name="Post Cards" id="172" linksSrc="182" type="Task" importance="Low" importanceQuantitative="25" refs="173"/>
-    <intElements name="Montreal T-shirts" id="178" linksSrc="183" type="Task" importance="Low" importanceQuantitative="25" refs="179"/>
-    <intElements name="Canadien's hockey hoodies" id="186" linksSrc="190" type="Task" importance="Low" importanceQuantitative="25" refs="187"/>
+    <intElements name="Coffee Mugs" id="168" linksSrc="184" type="Task" importance="Low" importanceQuantitative="25" refs="169">
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Post Cards" id="172" linksSrc="182" type="Task" importance="Low" importanceQuantitative="25" refs="173">
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Montreal T-shirts" id="178" linksSrc="183" type="Task" importance="Low" importanceQuantitative="25" refs="179">
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Canadien's hockey hoodies" id="186" linksSrc="190" type="Task" importance="Low" importanceQuantitative="25" refs="187">
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
     <intElements name="Minimize Customer Time Spent" id="194" linksDest="202 341" linksSrc="203 312" type="Goal" importance="Medium" importanceQuantitative="50" refs="195">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="24"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Maximize Customer Satisfaction" id="198" linksDest="203 204" type="Goal" refs="199"/>
+    <intElements name="Maximize Customer Satisfaction" id="198" linksDest="203 204 2739" type="Goal" refs="199">
+      <metadata name="_numEval" value="13"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
     <intElements name="Allow Name Engraving on Souvenirs" id="206" linksDest="219" linksSrc="221" type="Task" refs="207">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="12"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Minimize cashier line wait" id="275" linksDest="314" type="Goal" refs="276"/>
+    <intElements name="Minimize cashier line wait" id="275" linksDest="314" type="Goal" refs="276">
+      <metadata name="_numEval" value="1"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
     <intElements name="Have Barcodes on all purchasable items" id="287" linksDest="312" linksSrc="314" type="Task" refs="288">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="6"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <actors name="Gift Shop" id="124" contRefs="125"/>
+    <intElements name="Maximise customer awarness of advertisments and offers" id="2712" linksDest="2727" linksSrc="2739" type="Goal" importance="Low" importanceQuantitative="25" refs="2713">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Public Advertisments on Kiosk" id="2718" linksDest="2741 2742" linksSrc="2727" type="Goal" refs="2719">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Stores have more revenue" id="2733" linksSrc="2741" type="Goal" refs="2734">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Awarness of stores location" id="2735" linksSrc="2742" type="Goal" refs="2736">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <actors name="Gift Shop" id="124" contRefs="125">
+      <metadata name="_numEval" value="42"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </actors>
     <links xsi:type="grl:Decomposition" name="Decomposition151" id="151" refs="//@urndef/@specDiagrams.0/@connections.0" dest="130" src="140"/>
     <links xsi:type="grl:Decomposition" name="Decomposition157" id="157" refs="//@urndef/@specDiagrams.0/@connections.1" dest="130" src="153"/>
     <links xsi:type="grl:Contribution" name="Contribution162" id="162" refs="//@urndef/@specDiagrams.0/@connections.2" dest="134" src="153"/>
@@ -89,8 +147,12 @@
     <links xsi:type="grl:Contribution" name="Contribution312" id="312" refs="//@urndef/@specDiagrams.0/@connections.12" dest="287" src="194"/>
     <links xsi:type="grl:Contribution" name="Contribution314" id="314" refs="//@urndef/@specDiagrams.0/@connections.13" dest="275" src="287"/>
     <links xsi:type="grl:Contribution" name="Contribution341" id="341" refs="//@urndef/@specDiagrams.0/@connections.14" dest="194" src="164"/>
-    <groups name="StrategiesGroup5" id="5" strategies="6"/>
-    <strategies name="EvaluationStrategy6" id="6" author="14389" group="5">
+    <links xsi:type="grl:Contribution" name="Contribution2727" id="2727" refs="//@urndef/@specDiagrams.0/@connections.15" dest="2712" src="2718"/>
+    <links xsi:type="grl:Contribution" name="Contribution2739" id="2739" refs="//@urndef/@specDiagrams.0/@connections.16" dest="198" src="2712"/>
+    <links xsi:type="grl:Contribution" name="Contribution2741" id="2741" refs="//@urndef/@specDiagrams.0/@connections.17" dest="2718" src="2733"/>
+    <links xsi:type="grl:Contribution" name="Contribution2742" id="2742" refs="//@urndef/@specDiagrams.0/@connections.18" dest="2718" src="2735"/>
+    <groups name="StrategiesGroup5" id="5" strategies="6 2746"/>
+    <strategies name="OldEvaluationStrategy" id="6" author="14389" group="5">
       <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="140">
         <kpiEvalValueSet/>
       </evaluations>
@@ -107,6 +169,32 @@
         <kpiEvalValueSet/>
       </evaluations>
       <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="178">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="NewEvaluationStrategy" id="2746" author="14389" group="5">
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="140">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="153">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="172">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="168">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="186">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="178">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="2733">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="25" qualitativeEvaluation="WeaklySatisfied" intElement="2735">
         <kpiEvalValueSet/>
       </evaluations>
     </strategies>
@@ -183,7 +271,7 @@
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef199" id="199" x="343" y="432" contRef="125" pred="//@urndef/@specDiagrams.0/@connections.8 //@urndef/@specDiagrams.0/@connections.9" def="198">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef199" id="199" x="343" y="432" contRef="125" pred="//@urndef/@specDiagrams.0/@connections.8 //@urndef/@specDiagrams.0/@connections.9 //@urndef/@specDiagrams.0/@connections.16" def="198">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -199,7 +287,23 @@
         <metadata name="_height" value="50"/>
         <metadata name="_width" value="116"/>
       </nodes>
-      <contRefs xsi:type="grl:ActorRef" name="ActorRef125" id="125" x="-7" y="11" width="956" height="738" contDef="124" nodes="131 135 141 154 165 169 173 179 187 195 199 207 276 288">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2713" id="2713" x="501" y="400" contRef="125" succ="//@urndef/@specDiagrams.0/@connections.16" pred="//@urndef/@specDiagrams.0/@connections.15" def="2712">
+        <metadata name="_height" value="68"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2719" id="2719" x="628" y="488" contRef="125" succ="//@urndef/@specDiagrams.0/@connections.15" pred="//@urndef/@specDiagrams.0/@connections.17 //@urndef/@specDiagrams.0/@connections.18" def="2718">
+        <metadata name="_height" value="54"/>
+        <metadata name="_width" value="122"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2734" id="2734" x="474" y="565" contRef="125" succ="//@urndef/@specDiagrams.0/@connections.17" def="2733">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2736" id="2736" x="776" y="425" contRef="125" succ="//@urndef/@specDiagrams.0/@connections.18" def="2735">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef125" id="125" x="-7" y="11" width="956" height="738" contDef="124" nodes="131 135 141 154 165 169 173 179 187 195 199 207 276 288 2713 2719 2734 2736">
         <label/>
       </contRefs>
       <connections xsi:type="grl:LinkRef" source="141" target="131" link="151"/>
@@ -233,6 +337,18 @@
         <label deltaX="30" deltaY="-30"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="165" target="195" link="341">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="2719" target="2713" link="2727">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="2713" target="199" link="2739">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="2734" target="2719" link="2741">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="2736" target="2719" link="2742">
         <label deltaX="30" deltaY="-30"/>
       </connections>
       <comments description="Done by Michel Kassis&#xA;" x="847" y="33" width="100" height="100" fillColor="255,255,200"/>
