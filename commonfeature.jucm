@@ -58,8 +58,8 @@
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Bus To Station" id="70" linksSrc="191" type="Task" refs="71">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Personal Vehicle To Station" id="72" linksSrc="192" type="Task" refs="73">
       <metadata name="_numEval" value="0"/>
@@ -115,8 +115,8 @@
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Mobile Phone" id="172" linksSrc="178" type="Task" refs="173">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="External Transporation Methods To Station" id="180" linksDest="190 191 192 193" linksSrc="186" type="Task" decompositionType="Or" refs="181">
       <metadata name="_numEval" value="100"/>
@@ -224,12 +224,12 @@
       <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Wifi" id="344" linksSrc="348" type="Task" refs="345">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Scanner/Printer" id="350" linksSrc="354" type="Task" refs="351">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Phone Booth" id="356" linksSrc="360" type="Task" refs="357">
       <metadata name="_numEval" value="100"/>
@@ -248,8 +248,8 @@
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Stairs" id="372" linksSrc="378" type="Task" refs="373">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Accessibility Seating" id="381" linksSrc="385" type="Task" refs="382">
       <metadata name="_addAggregate" value="disable"/>
@@ -262,8 +262,8 @@
       <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="ATM" id="394" linksSrc="399" type="Task" refs="395">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Bank Teller" id="401" linksSrc="405" type="Task" refs="402">
       <metadata name="_numEval" value="100"/>
@@ -938,6 +938,90 @@
         <kpiEvalValueSet/>
       </evaluations>
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="326">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="368">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="58">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="60">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="153">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="99">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="95">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="231">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="381">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="74">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="72">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="195">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="289">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="293">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="297">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="309">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="245">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="107">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="166">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="204">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="429">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="268">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="427">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="425">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="421">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="423">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="356">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="264">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="254">
         <kpiEvalValueSet/>
       </evaluations>
     </strategies>
